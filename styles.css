@@ -1,0 +1,53 @@
+
+img{
+  width: 100px;
+  height: 100px;
+}
+.content {
+
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: crimson;
+  
+}
+.content{
+transition: 0.5s; 
+ overflow: hidden;
+ transform: scale(2s);
+ 
+
+}
+#checkbox{
+  display:none;
+
+}
+#checkbox:checked+.content{
+margin-left: -400px;
+transition-timing-function: 1s ease;
+}
+
+
+.content:hover{
+  background-color: red;
+  margin-right: 10px;
+  transform: scale(1.2s);
+  color: darkblue;
+  
+  
+  
+ 
+}
+
+.content>p:active{
+  background-color: green;
+  color: white;
+  
+}
+
+
+
+
+
+
+
+
